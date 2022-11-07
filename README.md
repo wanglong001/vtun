@@ -47,7 +47,7 @@ Usage of ./vtun:
   -compress
         enable data compression
   -p string
-        protocol udp/tls/grpc/ws/wss (default "udp")
+        protocol udp/tls/grpc/ws/wss (default "ws")
   -path string
         websocket path (default "/freedom")
   -s string

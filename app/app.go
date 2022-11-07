@@ -85,9 +85,9 @@ func (app *App) StartApp() {
 		}
 	default:
 		if app.Config.ServerMode {
-			udp.StartServer(app.Iface, *app.Config)
+			ws.StartServer(app.Iface, *app.Config)
 		} else {
-			udp.StartClient(app.Iface, *app.Config)
+			ws.StartClient(app.Iface, *app.Config)
 		}
 	}
 }
